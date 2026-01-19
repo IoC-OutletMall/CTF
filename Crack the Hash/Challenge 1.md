@@ -5,9 +5,9 @@ Hint Below
 ======================**
 
 <details>
-  <summary>sha512crypt is the encryption mode</summary>
+  <summary>Click to reveal the answer hint</summary>
   
-PLAIN HASH
+Password1
 
 </details>
 
