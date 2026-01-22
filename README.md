@@ -39,7 +39,8 @@ The CTF consists of **10 progressive challenges** that gradually increase in dif
 
 - **Hashcat**: GPU-accelerated password cracking
 - **John the Ripper**: Versatile password cracking utility
-- **Wordlists**: Common password dictionaries (RockYou, SecLists, etc.)
+- **Wordlists**: Common password dictionaries. Can be obtained from <a href="https://example.com"><code>Kali</code></a>
+
 - **Hash analyzers**: Tools for identifying hash types
 - **Custom masks**: Self-generated patterns for targeted attacks
 
