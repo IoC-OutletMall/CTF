@@ -23,6 +23,18 @@ Rockyou won't suffice this round, try brute force instead. This password is exac
 
 </details>
 
+**======================
+Hint 3 Below
+======================**
+
+<details>
+  <summary>Click to reveal the answer hint</summary>
+  
+The mask in hashcat can still take a long time with weaker systems as there are 26 characters in the alphabet you have to guess for a 12 character password. Use this custom mask to speed up the process: -1 glmou
+
+This mask will be alot faster than 26 lowercase characters.
+
+</details>
 
 **======================
 Answer Below
