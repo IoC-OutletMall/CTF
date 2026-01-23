@@ -30,9 +30,9 @@ Hint 3 Below
 <details>
   <summary>Click to reveal the answer hint</summary>
   
-The mask in hashcat can still take a long time with weaker systems as there are 26 characters in the alphabet you have to guess for a 12 character password. Use this custom mask to speed up the process: -1 glmou
+The mask in hashcat can still take a long time with weaker systems esepcially if you don't prevent duplicate characters. Use this custom mask to speed up the process: -1 glmou
 
-This mask will be alot faster than 26 lowercase characters.
+This mask will be much more effiecient because the full lowercase alphabet for a 12 character password needs 95 quadrillion attempts whereas the 5 character mask, glmou, requires 244 million. With tesing repeat characters starting with 1, and then 2 it will require even less. 
 
 </details>
 
