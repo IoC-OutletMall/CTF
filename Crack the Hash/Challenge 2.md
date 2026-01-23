@@ -1,4 +1,4 @@
-Using your tool of choice, crack this hash: $y$j9T$La/g1gnUBnv52qULL3S7h1$wYvRCTFEyMQ0tK9r3fdWhimiQ8Mj8UEffFXcflqxrk2
+Using your tool of choice, crack this hash: $6$sqp/RSVVJ7uGzfxi$7RRIaH5V6H7z2QagXxiC9KprzYcJzQ7gqKlBu0VCJf7./pLbjl/UlCy5D61BX9W3sNy0gtTKj0POG6mCCcY42/
 
 **======================
 Hint 1 Below
@@ -7,7 +7,7 @@ Hint 1 Below
 <details>
   <summary>Click to reveal the answer hint</summary>
   
-yescrypt is the encryption method
+sha512crypt Unix is the encryption method
 
 </details>
 
