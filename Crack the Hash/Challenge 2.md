@@ -19,7 +19,7 @@ Hint 2 Below
 <details>
   <summary>Click to reveal the answer hint</summary>
   
-Rockyou won't suffice this round, try brute force instead. This password is exactly 12 characters and all lowercase. If using hashcat use a mask.
+Rockyou won't suffice this round, try brute force instead. This password is exactly 12 characters and all lowercase. If using hashcat or John use a mask.
 
 </details>
 
