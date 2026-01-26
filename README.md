@@ -37,8 +37,8 @@ The CTF consists of **10 progressive challenges** that gradually increase in dif
 
 ## Tools You'll Use
 
-- **Hashcat**: GPU-accelerated password cracking
-- **John the Ripper**: Versatile password cracking utility
+- **Hashcat**: GPU-accelerated password cracking <a href="https://hashcat.net/hashcat/"><code>Hashcat Homepage</code></a>
+- **John the Ripper**: Versatile password cracking utility <a href="https://github.com/openwall/john"><code>JohnTheRipper Homepage</code></a> or `git clone https://github.com/openwall/john.git`
 - **Wordlists**: Common password dictionaries. Can be obtained from <a href="https://www.kali.org/tools/wordlists/#wordlists"><code>Kali</code></a>
 
 - **Hash analyzers**: Tools for identifying hash types
