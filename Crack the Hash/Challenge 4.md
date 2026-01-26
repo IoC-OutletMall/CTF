@@ -1,4 +1,4 @@
-Using your tool of choice, crack this hash: $6$RZLGZvw0l8Tg8SuD$okh59Kh2iO7l6jO/Wyayyi6Nb/fmJ2onTc.7VDRwFjHHjpCvc0kexcGeCJB9HV69vi5XQBOv7ABT.mS7LGGCA.
+Using your tool of choice, crack this hash: $y$j9T$/d.GWlWFRfZ8g0YziSoyH/$m5SQV9Z7RlVoUOl7HDDzG.BFo180uVpBWf1/ikp1XQ9
 
 **======================
 Hint 1 Below
