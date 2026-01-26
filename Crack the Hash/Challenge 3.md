@@ -1,6 +1,6 @@
 KeePass is a free, open source password manager. Great for protecting your passwords but strong passwords are encouraged because their databases can be hashed and cracked. Hashcat offers support for KeePass version 1 and 2 while Johnt The Ripper supports version 1-4 (the latest as of 01/2026). 
 
-Attached is the database for the latest version of keepass. Your objective is to extract the hash out of the database and crak it. 
+<a href="https://github.com/IoC-OutletMall/CTF/tree/main/Crack%20the%20Hash/Extra%20Files"><code>Linked</code></a> is the directory where you'll find the database for the latest version of keepass called Database.kbdx. Your objective is to extract the hash out of the database and crak it. 
 
 Reference the README for authentic copies of John The Ripper.
 
