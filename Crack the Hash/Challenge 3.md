@@ -1,4 +1,5 @@
 KeePass is a free, open source password manager. Great for protecting your passwords but strong passwords are encouraged because their databases can be hashed and cracked. Hashcat offers support for KeePass version 1 and 2 while John The Ripper supports cracking of versions 1 to 2.
+
 **======================
 Hint 1 Below
 ======================**
