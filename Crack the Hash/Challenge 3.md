@@ -1,13 +1,17 @@
-KeePass is a free, open source password manager. Great for protecting your passwords but strong passwords are encouraged because their databases can be hashed and cracked. Hashcat offers support for KeePass version 1 and 2 while John The Ripper supports cracking of versions 1 to 2.
+KeePass is a free, open source password manager. Great for protecting your passwords but strong passwords are encouraged because their databases can be hashed and cracked. Hashcat offers support for KeePass version 1 and 2 while Johnt The Ripper supports version 1-4 (the latest as of 01/2026). 
+
+Attached is the database for the latest version of keepass. Your objective is to extract the hash out of the database and crak it. 
+
+Reference the README for authentic copies of John The Ripper.
 
 **======================
 Hint 1 Below
 ======================**
 
 <details>
-  <summary>Click to reveal the answer hint</summary>
+  <summary>Click to reveal the hint</summary>
   
-sha512crypt Unix is the encryption method
+Use keepass2john to extract the hash. Open the hash in a text editor and pay close attention to the format. You may have to ommit some details.
 
 </details>
 
@@ -17,9 +21,9 @@ Hint 2 Below
 ======================**
 
 <details>
-  <summary>Click to reveal the answer hint</summary>
+  <summary>Click to reveal the hint</summary>
   
-Rockyou won't suffice this round, try brute force instead. This password is exactly 12 characters and all lowercase. If using hashcat or John use a mask.
+JohnTheRipper supports the hash you recently extracted from the keepass database. Instead of the core tool, use Jumbo for the ability to specify keepass format. You don't need to install system-wide; compile the binary and use this command to see the keepass format that best fits your system's needs './john --list=formats | less' without the single-quotes.
 
 </details>
 
@@ -28,11 +32,9 @@ Hint 3 Below
 ======================**
 
 <details>
-  <summary>Click to reveal the answer hint</summary>
+  <summary>Click to reveal the hint</summary>
   
-The mask in hashcat can still take a long time with weaker systems esepcially if you don't prevent duplicate characters. Use this custom mask to speed up the process: -1 glmou
-
-This mask will be much more effiecient because the full lowercase alphabet for a 12 character password needs 95 quadrillion attempts whereas the 5 character mask, glmou, requires 244 million. With tesing repeat characters starting with 1, and then 2 it will require even less. 
+You don't need to specify a wordlist. This password is pretty easy as the goal is to extract the hash and learn how to crack a non-standard hash using Jumbo John. John will automatically load a wordlist found in the run directory 'john/run/password.lst'
 
 </details>
 
@@ -43,6 +45,6 @@ Answer Below
 <details>
   <summary>Click to reveal the answer</summary>
   
-gollumgollum
+Password1
 
 </details>
