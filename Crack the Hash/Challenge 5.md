@@ -23,7 +23,7 @@ Hint 2 Below
   <summary>Click to reveal the hint</summary>
 
   
-7 alphabet characters
+7 alphabet characters. No repeating characters.
 
 </details>
 
