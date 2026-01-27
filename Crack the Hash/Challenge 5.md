@@ -10,6 +10,8 @@ Hint 1 Below
   
 This was take from the running-config of a Cisco Catalyst 2960
 
+To identify the hash type, you can do research or you can simply run `./john hash.txt` or `hashcat --identify hash.txt`, assuming your hash was saved to a text file called hash.txt.
+
 </details>
 
 
